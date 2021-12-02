@@ -1,9 +1,79 @@
 .menu{
-    // background-image: url("../img/Rectangle3.svg");
-    // background-repeat: no-repeat;
+
+    &__wrap{
+        background-image: url("../img/Rectangle3.svg");
+    background-repeat: no-repeat;
+    }
+
    &__wrapper{
        display: flex;
-     background-image: url("../img/Rectangle3.svg");
-    background-repeat: no-repeat;
+       padding-top: 100px;
+   }
+
+   &__link{
+       display: block;
+       margin-bottom: 7px;
+       padding: 12px 30px;
+       background: rgba(255, 255, 255, 0.25);
+       border-radius: 15px;
+       width: 230px;
+       font-size: 18px;
+       line-height: 27px;  
+       color: #fff;
+       text-decoration: none;
+
+       &:hover{
+           color: azure;
+           opacity: 0.8;
+       }
+   }
+
+   &__title{
+       margin-bottom: 30px;
+       width: 603px;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 82px;
+    color: #fff;
+   }
+
+   &__text{
+       margin-bottom: 68px;
+       width: 519px;
+    font-size: 25px;
+    line-height: 37px;    
+    color: #FFFFFF;
+    opacity: 0.4;
+   }
+
+   &__list-link{
+       padding: 27px 47px;
+       width: 263px;       
+       font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%);
+    border-radius: 27px;
+    color: #FEFEFE;
+    text-decoration: none;
+   
+   &:hover{
+    background: linear-gradient(129.54deg, #ff855d 15.57%, #ee150a 95.03%);
+    opacity: 0.9;
+   }
+}
+   &__img{
+       position: relative;
+       z-index: 2;
+       top: -250px;
+       left: -320px;
+
+       &::before{
+           position: absolute;
+           z-index: 1;
+           top: -240px;
+           left: -300px;
+           background-image: url(../../img/Ellipse4.png);
+       }
    }
 }

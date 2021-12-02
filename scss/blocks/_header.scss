@@ -1,6 +1,14 @@
 .content{
     // background-image: url(../img/Rectangle3.svg);
-    background-color: #1F5E37;
+    // background-color: #1F5E37;
+
+    &__wrap{
+        max-width: 1250px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 50px;
+    }
 
     &__navbar{
         display: flex;
@@ -13,6 +21,7 @@
     &__item{
         margin-left: 40px;
         margin-right: 40px;
+        padding-bottom: 2px;
     }
     &__link{
         color: #fff;
@@ -20,9 +29,9 @@
     }
 }
 .header__content{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+    padding-bottom: 15px;
+    background-image: url("../img/Rectangle3.svg");
+    background-repeat: no-repeat;
     
     &-link{
         margin-left: 13px;
@@ -30,16 +39,18 @@
         width: 129px;
         height: 49px;
         font-style: normal;
-        font-weight: 500;   
         font-size: 15px;
         line-height: 22px;
-        background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%), #FFFFFF;
-        border-radius: 100px;
         color: #fff;
         text-decoration: none;
     }
     &-link:hover{
         color: rgb(151, 137, 137);
         background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%),
+    }
+    &-href{
+        padding: 13px 43px;
+        background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%), #FFFFFF;
+        border-radius: 100px;
     }
 }

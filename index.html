@@ -12,19 +12,21 @@
     <!-- Header -->
     <header class="content">
         <div class="container header__content">
-            <a href="#"><img class="content__img" src="./img/GoTrieop.svg" alt="logo" width="93" height="30"></a>
-            <nav class="content__navbar">
-                <ul class="content__list">
-                    <li class="content__item"><a class="content__link" href="#">Home</a></li>
-                    <li class="content__item"><a class="content__link" href="#">Services</a></li>
-                    <li class="content__item"><a class="content__link" href="#">Pricing</a></li>
-                    <li class="content__item"><a class="content__link" href="#">Contack</a></li>
-                </ul>
-            </nav>
-            <div class="header__content-list">
-                <a class="header__content-link" href="#">Sign up</a>
-                <a class="header__content-link" href="#">Login</a>
-            </div><!-- /.content__href -->
+            <div class="content__wrap">
+                <a href="#"><img class="content__img" src="./img/GoTrieop.svg" alt="logo" width="93" height="30"></a>
+                <nav class="content__navbar">
+                    <ul class="content__list">
+                        <li class="content__item"><a class="content__link" href="#">Home</a></li>
+                        <li class="content__item"><a class="content__link" href="#">Services</a></li>
+                        <li class="content__item"><a class="content__link" href="#">Pricing</a></li>
+                        <li class="content__item"><a class="content__link" href="#">Contack</a></li>
+                    </ul>
+                </nav>
+                <div class="header__content-list">
+                    <a class="header__content-link" href="#">Sign up</a>
+                    <a class="header__content-link header__content-href" href="#">Login</a>
+                </div><!-- /.content__href -->
+            </div><!-- /.content__wrap -->
         </div><!-- /.container -->
     </header>
 
@@ -32,7 +34,7 @@
     <main class="slogan">
         <!-- Menu section -->
         <section class="menu">
-            <div class="container">
+            <div class="container menu__wrap">
                 <div class="menu__wrapper">
                     <div class="menu__list">
                         <a class="menu__link" href="#">exsplore the world</a>
@@ -43,41 +45,45 @@
                         <a class="menu__list-link" href="#">Exsplore Now</a>
                     </div><!-- /.menu__list -->
                     <div>
-                        <img class="menu__img" src="img/image 10.svg" alt="woman-with-camera" width="" height="">
+                        <img class="menu__img" src="img/image 10.svg" alt="woman-with-camera" width="1154" height="1145">
                     </div>
-                </div><!-- menu__wrapper -->
-               
+                </div><!-- menu__wrapper -->               
             </div><!-- /.container -->
         </section>
+
         <!-- Hero section -->
         <section class="hero">
-            <div class="container">
+            <div class="container hero__wrap">
                 <div class="hero__list">
-                    <small>Choice Of </small>
-                    <h3>Destinations</h3>
-                    <p>explore the beauty of god's earth in a beautiful forest and have fun</p>
-                    <a href="#">Exsplore Now</a>
-                    <div class="hero__page">
-                        <button></button>
-                        <img src="" alt="" width="335" height="402">
-                        <img src="" alt="" width="380" height="456">
-                        <img src="" alt="" width="335" height="402">
-                    </div><!-- /.hero__page -->
+                    <small class="hero__sml">Choice Of </small>
+                    <h3 class="hero__title">Destinations</h3>
+                    <p class="hero__text">explore the beauty of god's earth in a beautiful forest and have fun</p>
+                    <a class="hero__link" href="#">Exsplore Now</a>
                 </div><!-- /.hero__list -->
+                <div class="hero__page">
+                        <button class="hero__btn"><img src="img/Vector1.svg" alt="sign-left"></button>
+                        <img class="hero__img" src="img/Rectangle24.svg" alt="" width="335" height="402">
+                        <img class="hero__img hero__page-image" src="img/Rectangle25.svg" alt="" width="380" height="456">
+                        <img class="hero__img hero__page-img" src="img/Rectangle26.svg" alt="" width="335" height="402">
+                </div><!-- /.hero__page -->
             </div><!-- /.container -->
         </section>
+
         <!-- About section -->
         <section class="about">
-            <div class="container">
-                <img src="" alt="" width="478" height="537">
+            <div class="container about__wrap">
+                <img class="about__img" src="img/Mask Group1.svg" alt="" width="478" height="537">
                 <div class="about__list">
-                    <h3>What do customers say about us?</h3>
+                    <h3 class="about__title">What do customers say about us?</h3>
                     <div class="about__hero">
-                        <h4>Alpanasap</h4>
-                        <p>Japung, Indonesia</p>
+                        <img class="about__hero-img" src="img/Mask Group2.svg" alt="bagpack">
+                        <div>
+                        <h4 class="about__hero-title">Alpanasap</h4>
+                        <p class="about__hero-text">Japung, Indonesia</p>
+                    </div>
                     </div><!-- /.about__hero -->
                     <div class="about__star">
-                        <p>Very satisfying service makes it comfortable, a beautiful place in the world. </p>
+                        <p class="about__star-text">Very satisfying service makes it comfortable, a beautiful place in the world. </p>
                         <div>
                             <img src="img/Star1.svg" alt="star" width="59" height="59">
                             <img src="img/Star1.svg" alt="star" width="59" height="59">
@@ -89,24 +95,31 @@
                 </div><!-- /.about__list -->
             </div><!-- /.container -->
         </section>
+
         <!-- Service -->
         <section class="service">
             <div class="container">
                 <div class="service__list">
-                    <h3>Prepare Yourself And
+                    <img class="service__image" src="img/balls.svg" alt="blows">
+                    <h3 class="service__title">Prepare Yourself And
                         Start Exploring With Us.</h3>
-                    <p>There's the best discount for you today.</p>
-                    <a href="#">Get Started</a>
+                    <p class="service__text">There's the best discount for you today.</p>
+                    <a class="service__link" href="#">Get Started</a>
+                    <img class="service__img" src="img/balls.svg" alt="blows">
                 </div><!-- /.service__list -->
             </div><!-- /.container -->
         </section>
+
         <!-- Box -->
         <section class="box">
             <div class="container">
                 <div class="box__list">
-                    <h2></h2>
-                    <form action="https://echo.htmlacademy.ru" method="post">
-                        <input type="text" placeholder="Yourmail@mail.com"><a href="">Subscribe</a></input>
+                    <h2 class="box__title">Subscribe <br>
+                        To Our Newsletter</h2>
+                    <form class="box__wrap"  action="https://echo.htmlacademy.ru" method="post">
+                        <input class="box__input" type="text" placeholder="Yourmail@mail.com">
+                        <button class="box__link">Subscribe</button>
+                    </input>
                     </form>
                 </div><!-- /.box__list -->
             </div><!-- /.container -->
@@ -115,19 +128,23 @@
 
     <!-- Footer -->
     <footer class="lead">
-        <div class="container">
-            <img src="img/GoTrieop.svg" alt="">
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>Services</li>
-                    <li>Pricing</li>
-                    <li>Contack</li>
+        <div class="container lead__wrap">
+            <div>
+                <a href="">
+                    <img class="lead__list-img" src="img/GoTrieopfooter.svg" alt="logo">
+                </a>
+            </div>
+            <nav class="lead__navbar">
+                <ul class="lead__wrap-list">
+                    <a class="lead__wrap-link" href="#"><li class="lead__wrap-item">Home</li></a>
+                    <a class="lead__wrap-link" href="#"><li class="lead__wrap-item">Services</li></a>
+                    <a class="lead__wrap-link" href="#"><li class="lead__wrap-item">Pricing</li></a>
+                    <a class="lead__wrap-link" href="#"><li class="lead__wrap-item">Contack</li></a>
                 </ul>
             </nav>
             <div class="lead__line">
-                <a href="#">Sign up</a>
-                <a href="#">Login</a>
+                <a class="lead__line-link" href="#">Sign up</a>
+                <a class="lead__line-link lead__line-href" href="#">Login</a>
             </div><!-- /.lead__line -->
         </div><!-- /.container -->
     </footer>
